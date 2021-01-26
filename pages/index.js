@@ -34,7 +34,7 @@ export default function Home() {
         </Widget>
         <Footer />
       </QuizContainer>
-      <GithubCorner />
+      <GithubCorner projectUrl="https://github.com/Marlliton/aluraquiz-base"/>
     </QuizBackground>
   )
 }
