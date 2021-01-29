@@ -1,28 +1,18 @@
 import React, { useState } from 'react'
-import styled from 'styled-components'
+import { useRouter } from 'next/router'
 import QuizBackground from '../src/components/QuizBackground'
 import db from '../db.json'
 import Widget from '../src/components/Widgets'
 import Footer from '../src/components/Footer'
 import GithubCorner from '../src/components/GithubCorner'
 import QuizLogo from '../src/components/QuizLogo'
-import { useRouter } from 'next/router'
-
-export const QuizContainer = styled.div`
-  width: 100%;
-  max-width: 350px;
-  padding-top: 45px;
-  margin: auto 10%;
-  @media screen and (max-width: 500px) {
-    margin: auto;
-    padding: 15px;
-  }
-`
+import Input from '../src/components/Input'
+import Button from '../src/components/Button'
+import QuizContainer from '../src/components/QuizContainer'
 
 export default function Home() {
   const router = useRouter()
   const [name, setName] = useState('')
-  console.log(name, setName)
 
   return (
     <QuizBackground backgroundImage={db.bg}>
@@ -33,23 +23,25 @@ export default function Home() {
             <h1>{db.title}</h1>
           </Widget.Header>
           <Widget.Content>
+            <p>{db.description}</p>
             <form
-              onSubmit={function (event) {
+              onSubmit={event => {
                 event.preventDefault()
                 router.push(`/quiz?name=${name}`)
               }}
             >
-              <input
-                placeholder="Diz ai seu nome"
+              <Input
+                placeholder="Diz ai seu nome pra jogar : )"
                 onChange={event => {
                   // const value = event.target.value
                   // console.log(value)
                   setName(event.target.value)
                 }}
+                name="Input"
               />
-              <button type="submit" disabled={name.length === 0}>
+              <Button type="submit" disabled={name.length === 0}>
                 Jogar {name}
-              </button>
+              </Button>
             </form>
           </Widget.Content>
         </Widget>

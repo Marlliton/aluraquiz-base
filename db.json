@@ -1,7 +1,7 @@
 {
-  "bg": "https://articles.gamerheadquarters.com/images/top10/movies/10.jpg",
-  "title": "The legend of Zelda",
-  "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+  "bg": "https://i.ibb.co/k6nMCvx/Post-de-Game-of-Thrones.jpg",
+  "title": "Game of Thrones",
+  "description": "Vocé realmente conhece Game of Thrones? Teste seus conhecimentos da maior série já vista até hoje.",
   "questions": [
     {
       "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
@@ -31,8 +31,8 @@
   ],
   "theme": {
     "colors": {
-      "primary": "#4caf50",
-      "secondary": "#ff9800",
+      "primary": "#2584BF",
+      "secondary": "#CB9560",
       "mainBg": "#1c1814",
       "contrastText": "#FFFFFF",
       "wrong": "#FF5722",
