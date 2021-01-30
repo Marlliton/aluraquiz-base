@@ -4,7 +4,19 @@
   "description": "Vocé realmente conhece Game of Thrones? Teste seus conhecimentos da maior série já vista até hoje.",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+      "image": "https://i.ibb.co/9bwRWsN/dragon.jpg",
+      "title": "Quais as cores dos dragões de Daenerys?",
+      "description": "Essa é fácil! ",
+      "answer": 2,
+      "alternatives": [
+        "Drogon: Vermelho; Viseryon: Verde e Rhaegon: Laranja",
+        "Drogon: Verde; Viseryon: Vermelho e Rhaegon: Dourado",
+        "Drogon: Verde; Viseryon: Vermelho e Rhaegon: Dourado",
+        "Drogon: Dourado; Viseryon: Verde e Rhaegon: Preto"
+      ]
+    },
+    {
+      "image": "https://i.ibb.co/yVcdKWz/westeros.jpg",
       "title": "Quais raças habitavam Westeros antes da chegada dos Primeiros Homens?",
       "description": "Essa é fácil! ",
       "answer": 1,
@@ -15,7 +27,7 @@
       ]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+      "image": "https://i.ibb.co/3rGyh18/cidade-Secreta.jpg",
       "title": "Qual das Cidades Livres é apelidada de Cidade Secreta?",
       "description": "",
       "answer": 2,
@@ -26,7 +38,7 @@
       ]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+      "image": "https://i.ibb.co/7SYpVVn/catelyn.gif",
       "title": "Antes de casar com Ned, a quem Catelyn Stark (nome de solteira: Tully) estava prometida?",
       "description": "Está é para os raízes. Hehe!",
       "answer": 2,
@@ -37,7 +49,7 @@
       ]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+      "image": "https://i.ibb.co/m6nmcdy/dorne.jpg",
       "title": "Qual foi o único dos Sete Reinos que Aegon I não conseguiu conquistar?",
       "description": "",
       "answer": 1,
@@ -59,7 +71,7 @@
       ]
     },
     {
-      "image": "https://i.ibb.co/zV1WLgz/Mirri-Speaks.png",
+      "image": "https://i.ibb.co/XYMpb7y/Mirri-Speaks.jpg",
       "title": "Qual era o nome da bruxa que Daenerys queimou viva no funeral de Khal Drogo?",
       "description": "",
       "answer": 0,
