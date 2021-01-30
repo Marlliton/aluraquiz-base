@@ -5,24 +5,69 @@
   "questions": [
     {
       "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
-      "description": "Essa é pra aquecer",
-      "answer": 2,
+      "title": "Quais raças habitavam Westeros antes da chegada dos Primeiros Homens?",
+      "description": "Essa é fácil! ",
+      "answer": 1,
       "alternatives": [
-        ".elemento",
-        "*elemento",
-        "#elemento",
-        "%elemento"
+        "Os dragões",
+        "Os gigantes e os filhos das florestas",
+        "Os filhos das florestas"
       ]
     },
     {
       "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
-      "description": "Faz tempo em haha",
+      "title": "Qual das Cidades Livres é apelidada de Cidade Secreta?",
+      "description": "",
+      "answer": 2,
+      "alternatives": [
+         "Pentos",
+         "Myr",
+         "Braavos"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+      "title": "Antes de casar com Ned, a quem Catelyn Stark (nome de solteira: Tully) estava prometida?",
+      "description": "Está é para os raízes. Hehe!",
+      "answer": 2,
+      "alternatives": [
+         "Robert Baratheon",
+         "Petyr baelish",
+         "Brandon Stark"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+      "title": "Qual foi o único dos Sete Reinos que Aegon I não conseguiu conquistar?",
+      "description": "",
       "answer": 0,
       "alternatives": [
-         "background: linear-gradient(#e66465, #9198e5);",
-         "background: gradient(#e66465, #9198e5);"
+         "O Norte",
+         "Dorne",
+         "Westeros"
+      ]
+    },
+    {
+      "image": "https://i.ibb.co/6bG4d84/mormont.jpg",
+      "title": "A qual casa este brasão pertence?",
+      "description": "",
+      "answer": 2,
+      "alternatives": [
+         "Bolton",
+         "Stark",
+         "Mormont"
+      ]
+    },
+    {
+      "image": "https://i.ibb.co/zV1WLgz/Mirri-Speaks.png",
+      "title": "Qual era o nome da bruxa que Daenerys queimou viva no funeral de Khal Drogo?",
+      "description": "",
+      "answer": 2,
+      "alternatives": [
+         "Mirri Maz Duur",
+         "Elisabeth Plainacher",
+         "Dora Golub",
+         "Agnes Waterhouse"
       ]
     }
   ],
