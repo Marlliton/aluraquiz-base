@@ -11,7 +11,7 @@
       "alternatives": [
         "Drogon: Vermelho; Viseryon: Verde e Rhaegon: Laranja",
         "Drogon: Verde; Viseryon: Vermelho e Rhaegon: Dourado",
-        "Drogon: Verde; Viseryon: Vermelho e Rhaegon: Dourado",
+        "Drogon: Vermelho; Viseryon: Dourado e Rhaegon: Verde",
         "Drogon: Dourado; Viseryon: Verde e Rhaegon: Preto"
       ]
     },
@@ -84,7 +84,9 @@
     }
   ],
   "external": [
-    ""
+    "https://mr-robot-quiz-alura.bryanauta.vercel.app/",
+    "https://dark-quiz.azotief.vercel.app/",
+    "https://tw3-quiz.lucas98fernando.vercel.app/"
   ],
   "theme": {
     "colors": {
