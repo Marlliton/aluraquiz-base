@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react'
 import QuizBackground from '../../components/QuizBackground'
 // import db from '../../../db.json'
 import Widget from '../../components/Widgets'
+import BackLinkArrow from '../../components/BackLinkArrow'
 import QuizContainer from '../../components/QuizContainer'
 import QuizLogo from '../../components/QuizLogo'
 import Button from '../../components/Button'
@@ -53,6 +54,7 @@ function QuestionWidget({
   return (
     <Widget>
       <Widget.Header>
+        <BackLinkArrow href="/"/>
         <h3>{`Pergunta de ${questionIndex + 1} a ${totalQuestions}`}</h3>
       </Widget.Header>
       <img
