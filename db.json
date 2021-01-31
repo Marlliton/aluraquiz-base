@@ -81,6 +81,30 @@
          "Dora Golub",
          "Agnes Waterhouse"
       ]
+    },
+    {
+      "image": "https://i.ibb.co/yn7xVJm/espada.jpg",
+      "title": "Qual nome Arya da a espada que ganhou de Jon Snow?",
+      "description": "",
+      "answer": 0,
+      "alternatives": [
+         "Agulha",
+         "Alfinete",
+         "Cumpridora de promessas",
+         "Lamento da viúva"
+      ]
+    },
+    {
+      "image": "https://i.ibb.co/8PmqCXQ/bolton.jpg",
+      "title": "A qual casa este brasão pertence?",
+      "description": "",
+      "answer": 3,
+      "alternatives": [
+         "casa targaryen",
+         "Casa Lannister",
+         "Casa Baratheon",
+         "Casa Bolton"
+      ]
     }
   ],
   "external": [
